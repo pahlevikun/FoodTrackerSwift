@@ -14,6 +14,7 @@
 		D8B5D41620ABF961000B4426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B5D41420ABF961000B4426 /* LaunchScreen.storyboard */; };
 		D8B5D42120ABF961000B4426 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5D42020ABF961000B4426 /* FoodTrackerTests.swift */; };
 		D8B5D42C20AC36F4000B4426 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5D42B20AC36F4000B4426 /* RatingControl.swift */; };
+		D8B5D43020AC4F17000B4426 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5D42F20AC4F17000B4426 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D8B5D42020ABF961000B4426 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		D8B5D42220ABF961000B4426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8B5D42B20AC36F4000B4426 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		D8B5D42F20AC4F17000B4426 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				D8B5D40B20ABF961000B4426 /* AppDelegate.swift */,
 				D8B5D40D20ABF961000B4426 /* ViewController.swift */,
+				D8B5D42F20AC4F17000B4426 /* Meal.swift */,
 				D8B5D40F20ABF961000B4426 /* Main.storyboard */,
 				D8B5D42B20AC36F4000B4426 /* RatingControl.swift */,
 				D8B5D41220ABF961000B4426 /* Assets.xcassets */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B5D43020AC4F17000B4426 /* Meal.swift in Sources */,
 				D8B5D40E20ABF961000B4426 /* ViewController.swift in Sources */,
 				D8B5D42C20AC36F4000B4426 /* RatingControl.swift in Sources */,
 				D8B5D40C20ABF961000B4426 /* AppDelegate.swift in Sources */,
