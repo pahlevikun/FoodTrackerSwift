@@ -60,7 +60,7 @@
                     <navigationItem key="navigationItem" title="Your Meals" id="2SO-Mm-AbG">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="NE9-E8-v87">
                             <connections>
-                                <segue destination="vB0-mh-yOd" kind="show" id="RqD-r1-7JQ"/>
+                                <segue destination="vB0-mh-yOd" kind="show" identifier="AddItem" id="RqD-r1-7JQ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -189,6 +189,6 @@
         <image name="defaultPhoto" width="540" height="540"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Um2-nr-Wbj"/>
+        <segue reference="f4m-EF-X53"/>
     </inferredMetricsTieBreakers>
 </document>
